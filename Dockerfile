@@ -4,7 +4,7 @@ FROM gradle:jdk21 as builder
 WORKDIR /app
 
 COPY ./buil.gradle .
-COPY ./setting.gradle .
+COPY ./settings.gradle .
 
 COPY src ./src
 
